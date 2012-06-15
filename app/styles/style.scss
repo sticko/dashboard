@@ -1,3 +1,83 @@
-body {
-  background-color: #CCC;
+body{
+  background-color: #000;
+  background-image: url('/images/bg.jpg');
+  background-size: 100%;
+}
+
+.logo {
+  background-image: url('/images/logo.png');
+  height: 66px;
+  width: 198px;
+  position: absolute;
+  top: 65px;
+  left: 75px;
+}
+
+.numbers {
+  color: #21a7de;
+  line-height:80px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+}
+
+.label {
+  display: inline-block;
+  font-size: 42px;
+  padding: 5px;
+  font-family: 'Lato', sans-serif;
+  color: #333;
+  background-color: #F0F0F0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  float: right;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 5px 15px;
+  margin: 10px 15px 0 0;
+}
+
+#user_count {
+  float: right;
+  clear: both;
+  padding: 20px 20px 20px 0px;
+  position: absolute;
+  top: 500px;
+  right: 100px;
+
+  .numbers {
+    margin: 15px 5px 0 0;
+    font-size: 150px;
+  }
+  .label {
+    margin-top: 48px;
+  }
+}
+
+#checkin_count {
+  float: right;
+  clear: both;
+  padding: 20px 20px 20px 0px;
+  position: absolute;
+  top: 120px;
+  right: 100px;
+
+  .numbers {
+    line-height: 215px;
+    font-size: 215px;
+  }
+
+}
+
+#checkins_polar {
+  position: absolute;
+  top: 120px;
+  left: -320px;
+}
+
+#header_container {
+  display:none;
+}
+#footer_container {
+  display:none;
 }
